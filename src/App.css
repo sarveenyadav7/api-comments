@@ -1,20 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
+  background-color: #F0F2F5;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,15 +17,114 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.data-ui{
+  width: 700px;
+  height: auto;
+  float: left;
+  border-radius: 10px;
+  padding-bottom: 50px;
+  margin-bottom: 30px;
+  /* border: 0.5px solid black; */
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+}
+.login-img{
+  width: 8%;
+  height: auto;
+  float: left;
+  /* border: 2px solid black; */
+  margin-top: 20px;
+  margin-left: 72px;
+}
+.login-img img{
+  width: 74%;
+  height: 44px;
+  border-radius: 50px;
+}
+.id{
+  color: black;
+  font-size: 15px;
+  margin-top: 26px;
+  text-align: left;
+  font-weight: 500;
+}
+.id span{
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 600;
+  font-size: 13px;
+}
+.id p{
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 11px;
+}
+.user-img{
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+  /* border: 2px solid black; */
+  /* float: left; */
+}
+.user-img img{
+  width: 60%;
+}
+.comments-list{
+  width: 80%;
+  /* height: 100px; */
+  float: left;
+  margin: 30px 0 0 72px;
+  /* margin: 4.8%; */
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 10px;
+  /* box-shadow: 0.5px 0.5px 5px 5px black; */
+}
+.user-comments{
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  float: left;
+}
+.lower-row{
+  width: 100%;
+  height: 50px;
+  float: left;
+}
+.img-col{
+  width: 8%;
+  height: 50px;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lower-row img{
+  width: 80%;
+  float: left;
+}
+.email-id{
+  width: 50%;
+  height: 50px;
+  text-align: left;
+  float: left;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 600;
+  padding-top: 14px;
+}
+.ratings{
+  width: 42%;
+  height: 50px;
+  float: left;
+  text-align: right;
+}
+.ratings p{
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  font-weight: 600;
+  padding: 14px;
+}
+span{
+  color: black;
 }
